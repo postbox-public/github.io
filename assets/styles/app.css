@@ -883,7 +883,6 @@ strong {
 a, a:visited {
   text-decoration: none;
   color: #00aaf0;
-  transition: all .3s ease-in-out;
 }
 
 a:hover, a:active, a:focus {
