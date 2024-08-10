@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html xmlns="//www.w3.org/1999/xhtml" lang="en-US" class="">
+<head>
+	<meta charset="utf-8"/>
+	<title>Release Notes - Postbox</title>
+	<link href="/assets/styles/aos.css?v=1721838117" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://postbox-public.github.io/html/assets/fonts/font.css">
+	<link rel="stylesheet" href="https://postbox-public.github.io/html/assets/styles/app.css">
+</head>
+<body>
+	<header class="page-head page-head--sky" role="banner" id="page-head">
+		<div class="container">
+			<a href="https://postbox-public.github.io/html/" class="page-logo">
+				<img src="https://postbox-public.github.io/html/assets/images/postbox-logo-white.png" alt="Postbox">
+			</a>
+		</div>
+	</header>
+
+	<main role="main">
+
+		<section class="section ">
+			<div class="container">
+				<div class="container--narrow">
+
+					<!-- START CONTENT BLOCK -->
+					<h1 style="margin: 50px 0;">Release Notes Documentation</h1>
+<h3>Postbox 7.0.62</h3>
+<ul>
+ <li>Added support for OmniFocus 4 Pro for macOS</li>
+ <li>Fixed an issue that prevented images from specific domains from loading </li>
+ <li>Changed Microsoft OAuth2 account setup labels for consistency </li>
+ <li>Removed support for Google Safe Browsing </li>
+</ul>
+<h3>Postbox 7.0.61</h3>
+<ul>
+ <li>Added OAuth2 authentication support for free Microsoft accounts </li>
+ <li>Added support for WebP image loading</li>
+ <li>Fixed an issue that could cause Gmail OAuth settings to display during Microsoft account setup</li>
+ <li>Removed support for inbox message editing </li>
+ <li>Removed support for cloud file sharing </li>
+</ul>
+<h3>Postbox 7.0.60</h3>
+<ul>
+ <li>Updated the built-in Emoji set to v15.0</li>
+ <li>Added Search History to the group of user-generated data that can be stored in a user-specified location</li>
+ <li>Fixed an issue that prevented the built-in Address Book from being stored in a user-specified location</li>
+</ul>
+<h3>Postbox 7.0.59</h3>
+<ul>
+ <li>Fixed an issue that could cause the wrong sending server authentication choice to display in the sending server summary panel</li>
+ <li>Fixed an authentication issue with OneDrive accounts</li>
+</ul>
+<h3>Postbox 7.0.58</h3>
+<ul>
+ <li>Hotfix to address an authentication issue with Yahoo accounts</li>
+</ul>
+<h3>Postbox 7.0.57</h3>
+<ul>
+ <li>Implemented change to use external browsers for OAuth2 authentications</li>
+ <li>Added the "Send Later" command (which drops messages into the Outbox instead of sending them immediately) to the Send button for newly composed messages</li>
+</ul>
+<h3>Postbox 7.0.56</h3>
+<ul>
+ <li>Updated the database for categorizing emails from social networking websites </li>
+ <li>Fixed an issue that could prevent accounts from checking for new mail when OAuth2 is used for authentication </li>
+ <li>Fixed an authentication issue with Dropbox Cloud File Sharing accounts </li>
+</ul>
+<h3>Postbox 7.0.55</h3>
+<ul>
+ <li><em>Internal test build</em> </li>
+</ul>
+<h3>Postbox 7.0.54</h3>
+<ul>
+ <li>Fixed an issue that would prevent signature settings from displaying properly in the preferences panel </li>
+ <li>Fixed an issue that could cause iCloud folders to unsubscribe when a folder was deleted </li>
+</ul>
+<h3>Postbox 7.0.53</h3>
+<ul>
+ <li>Fixed an authentication issue with GoDaddy servers </li>
+ <li>Fixed an issue that could prevent text from switching color between light and dark themes </li>
+</ul>
+<h3>Postbox 7.0.52</h3>
+<ul>
+ <li>Fixed a font spacing issue when a non-English locale is used in macOS Monterey</li>
+ <li>Select localization fixes</li>
+</ul>
+<h3>Postbox 7.0.51</h3>
+<ul>
+ <li>Fixed an issue that could prevent messages from loading when using Apple email servers</li>
+</ul>
+<h3>Postbox 7.0.50</h3>
+<ul>
+ <li>You can now set a default light and dark theme - select the "Default" theme, then use the pulldown menus to specify light/dark themes in <em>Preferences | Options &gt; Display &gt; Themes</em></li>
+ <li>The speed of LDAP addressing lookups has been significantly improved</li>
+</ul>
+<h3>Postbox 7.0.49</h3>
+<ul>
+ <li>Support for Antidote Labs Project for Windows</li>
+ <li>Fixed an issue that prevented existing Quick Post entries from appearing in the Quick Bar</li>
+</ul>
+<h3>Postbox 7.0.48</h3>
+<ul>
+ <li>Improved new account set up for Office 365 accounts</li>
+ <li>Internal maintenance changes</li>
+</ul>
+<h3>Postbox 7.0.47</h3>
+<ul>
+ <li>Promoted Office 365 OAuth2 support from BETA to production</li>
+ <li>OAuth2 servers will now manually display in the Account Setup Wizard instead of dynamically</li>
+ <li>Fixed an issue that could cause the wrong OAuth2 server to display in the Outgoing Servers Summary panel</li>
+ <li>Added a new service to Postbox's Tracking Prevention feature</li>
+</ul>
+<h3>Postbox 7.0.46</h3>
+<ul>
+ <li>Blocked Athena Smart Card device driver (<em>asepkcs.dll</em>) versions 6.5.0.5 and below from loading in Postbox</li>
+ <li>Fixed a glitch with toolbar button rendering on macOS Big Sur</li>
+</ul>
+<h3>Postbox 7.0.45</h3>
+<ul>
+ <li>Refactored the loading animation to improve performance </li>
+ <li>Fixed several login issues with Cloud File Sharing </li>
+ <li>Fixed an issue that could prevent drag-n-drop of images from a sharing folder into the Compose window </li>
+</ul>
+<h3>Postbox 7.0.44</h3>
+<ul>
+ <li>Online search in the Compose window now uses the selected search engine in <em>Preferences | Options &gt; General</em> </li>
+ <li>Fixed file link creation when using Dropbox for Business </li>
+ <li>Fixed an issue that would prevent themes from being saved with a hyphen in the name </li>
+</ul>
+<h3>Postbox 7.0.43</h3>
+<ul>
+	<li>Fixed login issues for Cloud File Sharing services </li>
+	<li>Cloud File Sharing support for Box's updated folder name </li>
+	<li>Fixed a visual glitch in the Windows search bar </li>
+	<li>Fixed a few crashing bugs </li>
+</ul>
+<h3>Postbox 7.0.42</h3>
+<ul>
+	<li>Changed new account authentication to default to <em>Password</em> instead of <em>Autodetect</em></li></ul>
+<ul>
+</ul>
+<h3>Postbox 7.0.41 </h3>
+<ul>
+	<li>BETA release of MFA/OAuth2 authentication for Office 365 accounts </li>
+	<li>Cleaned up several areas of the UI, and reworked some of the icons to make them display better with certain dark mode themes </li>
+	<li>Implemented better fix for persisting print preferences across sessions </li>
+	<li>Fixed a theme regression for the Address Book in the Compose Sidebar </li>
+	<li>Fixed a crashing bug </li>
+</ul>
+<h3>Postbox 7.0.40 </h3>
+<ul>
+	<li>Added support for inserting a new Theme template for all locales </li>
+	<li>Fixed an issue that could cause contextual menus to show in the wrong place for multi-display configurations </li>
+</ul>
+<h3>Postbox 7.0.39 </h3>
+<ul>
+	<li>Backed out a change that could be causing password issues for some customers </li>
+</ul>
+<h3>Postbox 7.0.38 </h3>
+<ul>
+	<li><strong>REMINDER:</strong> To make room for new themes, we have removed all themes from Postbox except for the default Light and Dark themes.</li>
+	<li>The Theme Editor now uses a code view window</li>
+	<li>Added a color picker to all code view windows</li>
+	<li>Increased the size of code view windows for Themes, Signatures, Responses, and Clips</li>
+	<li>Fixed a few missing styling changes in the Compose and Address Book toolbars</li>
+</ul>
+<h3>Postbox 7.0.37 </h3>
+<ul>
+	<li><strong>NEW FEATURE</strong> - Customizable themes are here! Create a new theme, modify an existing theme, and import/export themes in our new Theme Editor.  </li>
+	<li><strong>IMPORTANT:</strong> To make room for new themes, we have removed all themes from Postbox except for the default Light and Dark themes.</li>
+	<li>The Postbox toolbar on Windows has updated styling</li>
+	<li>Made a change to allow more characters to be used in passwords </li>
+	<li>Added a new service to Postbox's Tracking Prevention feature</li>
+	<li>Fixed an issue with the new mail icon not being removed from the Windows System Tray on exit</li>
+	<li>Fixed a crash when clicking in the search bar in Windows Explorer</li>
+	<li>Fixed a crash that could occur on startup on macOS Big Sur</li>
+	<li>Fixed a crash related to printing preferences on macOS</li>
+</ul>
+<h3>Postbox 7.0.36 </h3>
+<ul>
+	<li>Hotfix to address an edge case with Evernote deprecation </li>
+</ul>
+<h3>Postbox 7.0.35 </h3>
+<ul>
+	<li>Dragging and dropping a file to the Compose window addressing panel will now attach it to the message </li>
+	<li>Deprecated support for direct Evernote integration on macOS</li>
+	<li>Fixed a regression that prevented the Compose Sidebar from opening and closing </li>
+	<li>Fixed a regression that prevented message headers from collapsing and expanding </li>
+	<li>Fixed an issue that prevented the message list from clearing when selecting an empty account group </li>
+</ul>
+<h3>Postbox 7.0.34 </h3>
+<ul>
+	<li>Hotfix to address an issue with bold font display on macOS 10.13 and 10.14 </li>
+</ul>
+<h3>Postbox 7.0.33 </h3>
+<ul>
+	<li>Improvements to macOS font tracking </li>
+</ul>
+<h3>Postbox 7.0.32 </h3>
+<ul>
+	<li><em>Internal release, not available to the public</em></li>
+</ul>
+<h3>Postbox 7.0.31 </h3>
+<ul>
+	<li>Increased the timeout for bulk copy operations </li>
+	<li>Improvements to macOS font tracking </li>
+	<li>User interface improvements </li>
+</ul>
+<h3>Postbox 7.0.30 </h3>
+<ul>
+	<li>UI improvements/fixes in preparation for macOS Big Sur </li>
+	<li>Fixed an issue that could cause changes to be lost during message editing when new messages arrive </li>
+</ul>
+<h3>Postbox 7.0.29 </h3>
+<ul>
+	<li>Hotfix to address a localization issue on Windows </li>
+</ul>
+<h3>Postbox 7.0.28 </h3>
+<ul>
+	<li>Added Minimize to Tray feature for Windows 8 and Windows 10 users </li>
+	<li>Added ability to select all folders in the Subscribe and Offline folder selection panels </li>
+	<li>Added ability to preserve print preferences </li>
+	<li>Improved context-click feedback during folder selection </li>
+</ul>
+<h3>Postbox 7.0.27 </h3>
+<ul>
+	<li>Improved the UI feedback for message drag and drop </li>
+	<li>Changed the behavior of Google Safe Browsing so that the local database of URLs is deleted once the feature is disabled </li>
+	<li>Fixed an issue that could prevent nested folders from appearing in the Subscribe panel </li>
+	<li>Fixed an issue with the profile migrator when external storage locations were used for POP and Local accounts </li>
+	<li>Fixed a crash on macOS Big Sur when Fullscreen Mode is used</li>
+	<li>Fixed an issue with window titles on macOS Big Sur </li>
+	<li>Fixed an issue where the Favorites Bar wouldn't update properly after deleting a folder </li>
+</ul>
+<h3>Postbox 7.0.26.1</h3>
+<ul>
+	<li>Fixed a crashing bug on macOS Big Sur </li>
+</ul>
+<h3>Postbox 7.0.26</h3>
+<ul>
+	<li>Changed the behavior of conversation view so that selected text will clear when a different message is selected </li>
+	<li>Added new services to the Tracking Prevention database </li>
+	<li>Fixed an issue that prevented selected text from quoting when a conversation was viewed </li>
+	<li>Fixed an issue that caused Contact Card email addresses to duplicate when contact display was set to Display Name and Email Address </li>
+	<li>Fixed a crashing bug on macOS Big Sur </li>
+</ul>
+<h3>Postbox 7.0.25</h3>
+<ul>
+	<li>Improved the "add to filter" feature to detect when a contact is From, To, or CC'd in a message so that these criteria can be added to the selected filter </li>
+	<li>Improved the Find Bar to support Themes </li>
+	<li>Added code to detect when running on macOS Big Sur for theming changes </li>
+	<li>Implemented new crash reporting mechanism </li>
+	<li>Fixed a crashing bug </li>
+</ul>
+<h3>Postbox 7.0.24</h3>
+<ul>
+	<li>Changed some of the strings in the en-GB locale to better map to what's used for en-US</li>
+	<li>Fixed an issue with text not displaying in pop-up menus on macOS Big Sur</li>
+	<li>Fixed an issue that prevented quoted text from displaying the correct colors during message composition</li>
+	<li>Fixed an issue that prevented the "add to filter" feature from writing preferences when the Filter Manager wasn't open</li>
+	<li>Fixed an issue that could cause mixed conditionals when using the "add to filter" feature</li>
+</ul>
+<h3>Postbox 7.0.23</h3>
+<ul>
+	<li>Changed the default for contact display from "Email Address" to "Display Name"</li>
+	<li>On macOS, when adding an event to the Calendar from a detected date, Postbox now includes a link back to the original message</li>
+	<li>Created "add to filter" option in the Contacts Card</li>
+	<li>Added new services to the Tracking Prevention database</li>
+	<li>Fixed a glitch with the action buttons on Windows for the Calypso and Storm Grey themes</li>
+</ul>
+<h3>Postbox 7.0.22</h3>
+<ul>
+	<li>Added a preference to select "Display Name," "Email Address," or "Display Name and Email Address" for contact presentation in the message list and message header envelope in <em>Preferences | Options &gt; Display &gt; Advanced</em></li>
+	<li>Improved support for EU date formats (dd/mm/yyyy) for search and date detection</li><li>Added Date Pickers to the Advanced Search, Message Filter, and Smart Folder panels</li>
+	<li>Improved the styling in the Advanced Search panel</li><li>Added a new service to Postbox's Anti-Tracking database</li>
+	<li>Fixed an issue with date detection when multiple dates are present within a message</li><li>Fixed an issue that could cause March and October months to duplicate in the date picker for certain EU locales</li>
+	<li>Fixed field sizing in the Advanced Search panel when the panel was resized smaller</li>
+
+</ul>
+<h3>Postbox 7.0.21</h3>
+<ul>
+	<li>Exiting from a search or Focus Pane filter will now preserve the selector for previously selected messages</li>
+	<li>If the message list is sorted by date ascending, exiting from a search will now jump to the bottom of the message list</li><li>Turning off the preference for quoting the original message will now turn off Summarize mode</li>
+	<li>Added more services to the Anti-Tracking database</li>
+</ul>
+<h3>Postbox 7.0.20</h3>
+<ul>
+	<li><em>Internal release, not available to the public</em></li>
+</ul>
+<h3>Postbox 7.0.19</h3>
+<ul>
+	<li>Enhanced Gmail Labeling so that entries in the Quick Bar do not remove previous labels </li>
+	<li>Enhanced the Quick Bar by removing <em>[Gmail]</em> and <em>[Goolge Mail]</em> labels before special folder names </li>
+	<li>Enhanced the Quick Search contextual menu to reduce panel flicker </li><li>Updated the Anti-Tracking database to prevent more services from tracking your behavior</li>
+	<li>Fixed an issue that prevented inline vCards from opening when <em>View menu &gt; Display Attachments Inline</em> is disabled </li>
+	<li>Fixed an issue that prevented the Folder Pane at minimal width from being resized </li>
+	<li>Fixed an issue with the Global Filter indicator not updating when a filter's position was changed </li><li>Fixed an issue that caused messages to lose selection after applying a Gmail label </li>
+</ul>
+<h3>Postbox 7.0.18</h3>
+<ul>
+	<li>Added an importer for Thunderbird (in BETA)</li>
+	<li>Changed the protocol handler from callto: to tel: to prevent Zoom from launching for phone numbers </li>
+	<li>Fixed an issue that could prevent vCard, Signature, and Clips preferences from sticking </li>
+	<li>Fixed an issue that caused non-Favorite Topic colors to lose their colors </li>
+	<li>Fixed an issue with contextual menus after a specific search path </li>
+</ul>
+<h3>Postbox 7.0.17</h3>
+<ul>
+	<li>Contextual menus for Favorite Contacts in the Focus Pane can now filter multiple email addresses per contact</li>
+	<li>Addressed an issue with Updates on macOS </li>
+</ul>
+<h3>Postbox 7.0.16</h3>
+<ul>
+	<li>Added Periodic Filter option that allows filters to run on all Inbox messages every 10 minutes </li>
+	<li>Enhanced the Focus Pane's Attributes contextual menu so that it will now stay open during the selection </li>
+	<li>Removed white backgrounds from some Custom Signatures </li>
+	<li>Refreshed the Postbox application icon on macOS to better adhere to Catalina visual standards </li>
+	<li>Fixed a glitch that caused LDAP directory names to not display properly when selected </li>
+	<li>Fixed a crashing bug </li>
+</ul>
+<h3>Postbox 7.0.15</h3>
+<ul>
+	<li>Fixed several crashing bugs </li>
+</ul>
+<h3>Postbox 7.0.14</h3>
+<ul>
+	<li>Fixed several crashing bugs </li>
+</ul>
+<h3>Postbox 7.0.13</h3>
+<ul>
+	<li>Support for macOS Catalina's "Auto" appearance setting</li>
+	<li>The Favorites Bar now supports first-level sub-folders</li>
+	<li>Fixed an issue on Windows that caused April and November months to duplicate in the search bar date picker </li>
+	<li>Fixed a theme issue on Windows that prevented subject lines in Edit mode from displaying clearly</li>
+</ul>
+<h3>Postbox 7.0.12</h3>
+<ul>
+	<li>For Windows users, we've added more fine-grained DPI controls in Tools menu &gt; Options &gt; General</li>
+	<li>For new installs, we changed the default Archive granularity from yearly folders to one folder</li>
+	<li>For new installs, we added the Theme button to the default toolbar set</li>
+	<li>Updated the Tracking Notification database with new services</li>
+	<li>Added better OAuth authorization resets when the password has changed on the server</li>
+	<li>Fixed a theme issue in the Address Book on Windows</li>
+</ul>
+<h3>Postbox 7.0.11</h3>
+<ul>
+	<li>Additional support for macOS Hardened Runtime Entitlements</li>
+	<li>Fixed a regression with adding events to macOS Calendar</li>
+</ul>
+<h3>Postbox 7.0.10</h3>
+<ul>
+	<li>Added support for macOS Hardened Runtime Entitlements</li>
+	<li>For new installs, the app will no longer close if the account wizard is canceled</li>
+	<li>Updated the anti-tracking database with new image URLs to flag</li>
+	<li>Fixed an issue that could cause an infinite loop during indexing</li>
+</ul>
+<h3>Postbox 7.0.9</h3>
+<ul>
+	<li>Updated Windows code signing certificate</li>
+	<li>Updated the anti-tracking database with new image URLs to flag</li>
+	<li>Fixed the appearance of notification bar buttons in certain themes</li>
+	<li>Fixed styling of drag and drop actions in the Favorites Bar</li>
+</ul>
+<h3>Postbox 7.0.8</h3>
+<ul>
+	<li>The Compose window will now use the text zoom level that was last used</li>
+	<li>Implemented a workaround to address an authentication issue at Google </li>
+	<li>Implemented code that will fail more gracefully if Google accounts do not return the appropriate authentication response</li>
+</ul>
+<h3>Postbox 7.0.7</h3>
+<ul>
+	<li>We added 4 beautiful new themes – the new light themes are Lavender and Calypso, and the new dark themes are Charcoal and Gulf Blue – enjoy!</li>
+	<li>Improved the image scaling icons in the Compose window when using a dark mode theme </li>
+	<li>Fixed an issue with the Tab key skipping over fields in the Compose window </li>
+	<li>Fixed an issue with the "is" Topic criteria for Smart Folders </li>
+</ul>
+<h3>Postbox 7.0.6</h3>
+<ul>
+	<li>Gmail labels now match against label name instead of the label path </li>
+	<li>Pressing the tab key during addressing will now select the highlighted contact </li>
+	<li>Added Placeholders to Table and Bullet Clips to make selection easier </li>
+	<li>Fixed Conversation View when an Account Group is selected and conversations were set to display messages from the Inbox, Sent, and Archive folders </li>
+	<li>Fixed a font color issue when copying and pasting text from dark mode themes </li>
+	<li>Fixed an issue with setting default Signatures and Clips in secondary Identities </li>
+	<li>Fixed an issue that prevented the Home button from loading the start page </li>
+</ul>
+<h3>Postbox 7.0.5.2</h3>
+<ul>
+	<li>Fixed a selection issue in the RSS/Feed subscription list </li>
+	<li>Fixed several issues with Quick Post and Gmail labeling in the Quick Bar </li>
+	<li>Fixed a graphics glitch in the tab bar </li>
+</ul>
+<h3>Postbox 7.0.5.1</h3>
+<ul>
+	<li>Internal build to test macOS 10.15 Catalina </li>
+</ul>
+<h3>Postbox 7.0.5</h3>
+<ul>
+	<li>Improved dark mode theme display for message forwards </li>
+	<li>Improved first-run theme display when migrating from Postbox 6 to 7 </li>
+	<li>Added "New Smart Folder" menu option to the action bar below the Folders Pane </li>
+	<li>Lightened reply color for plain text messages in dark mode themes</li>
+	<li>Fixed an issue that could inhibit auto-completion suggestions for Gmail labels </li>
+	<li>Addressed an S/MIME security issue </li>
+</ul>
+<h3>Postbox 7.0.4</h3>
+<ul>
+	<li>Fixed an issue with some .ics files not displaying as attachments when certain information was missing from the message header </li>
+	<li>Fixed an issue with scaling images when added using the image button in the formatting toolbar </li>
+	<li>Fixed an issue with dark mode themes when using plain text in the composition window </li>
+	<li>Fixed an issue with setting up Google accounts under certain conditions </li>
+	<li>Fixed several crashing bugs </li>
+</ul>
+<h3>Postbox 7.0.3</h3>
+<ul>
+	<li>Updated instructions for callout Clips</li>
+	<li>Fixed an issue where messages weren't being marked as read when the preview pane was closed and messages were set to open in a new window</li>
+	<li>Fixed an issue with dark mode when colors with transparency are used </li>
+	<li>Fixed an issue that caused images added in signatures via the image button to not render correctly </li>
+	<li>Fixed an issue that could cause the progress meter to move positions on low-resolution Macs </li>
+	<li>Fixed styling for drag-and-drop operations on Windows </li>
+</ul>
+<h3>Postbox 7.0.2</h3>
+<ul>
+	<li>Added monochrome icons to the Address Book sidebar for themes that support them </li>
+	<li>Fixed an issue with fonts not picking up the correct color in the Address Book on Windows </li>
+	<li>Fixed an issue that prevented content display after a delete action when an Account Group was selected </li>
+</ul>
+<h3>Postbox 7.0.1</h3>
+<ul>
+	<li>Search bar dropdown menu now inherits theme styling </li>
+	<li>Messages will now reload when switching between light and dark themes </li>
+	<li>Fonts have been made darker on many of the themes </li>
+	<li>Corrected letter spacing for the San Francisco font on macOS 10.15 Catalina </li>
+	<li>Changed the background color of the Filter Log</li>
+	<li>We now display the proper placeholder message when "Search All Folders" is selected without a search term </li>
+	<li>Fixed an issue that could cause the “Default” theme to not display correctly when the OS was in light mode </li>
+	<li>Fixed an issue that could prevent a default Clip from being set on alternate Identities </li>
+</ul>
+<h3>Postbox 7.0</h3>
+<h5>What's New</h5>
+<p><strong>Themes</strong></p>
+<p>Postbox now ships with 20 beautiful themes spread across light and dark modes. To select a new theme, click the Themes button in the toolbar, or select a theme from the View &gt; Theme menu.</p>
+<p>The "Default" option will automatically switch between the original "Light" and "Dark" themes based upon the OS preference or dark mode state.</p>
+<p><strong>Clips</strong></p>
+<p>Clips let you quickly insert pre-formatted blocks of HTML into your messages. It works similarly to Responses and Signatures, but Clips have two additional capabilities:</p>
+<ol>
+ <li>Clips can insert CSS into the &lt;head&gt; region of a message</li>
+ <li>A default Clip can be used per identity when new messages are composed</li>
+</ol>
+<p>This means that you can now create sophisticated newsletters, brand templates, or stationary and use them as needed or by default per identity.</p>
+<p>Theoretically, any email template that you can create or find on the web can now be used in Postbox.</p>
+<p>Like Signatures and Responses, we've included a suite of example Clips that you can use in your messages, including:</p>
+<ul>
+ <li>checked bullets</li>
+ <li>numbered bullets</li>
+ <li>buttons</li>
+ <li>callouts</li>
+ <li>description list</li>
+ <li>horizontal rules</li>
+ <li>image blocks</li>
+ <li>quotes</li>
+ <li>social follow blocks</li>
+ <li>text blocks</li>
+ <li>tables</li>
+</ul>
+<p>To access Custom Clips, open the Compose window, make sure the Clips button is added to the Toolbar, press and hold the Clips button, then select Custom Clips from the menu.</p>
+<p><strong>Labs</strong></p>
+<p>Similar to add-ons, our Labs feature will allow for experimental 3rd-party code to be used within Postbox.</p>
+<p>The first Labs project will be OpenPGP support provided by a specially designed version of Enigmail for Postbox and can be
+ enabled under the Tools menu (remember to add the appropriate buttons to the Compose window toolbar).</p>
+<p>Unlike add-ons which can be arbitrarily installed, only a select number of Labs projects will be available for Postbox. Given that Labs projects contain 3rd-party experimental code, they are not officially supported by Postbox, Inc.</p>
+<p><strong>Cloud File Sharing for Business</strong></p>
+<p>By popular demand, we've added two new services to our Cloud File Sharing feature:</p>
+<ul>
+ <li>Dropbox for Business</li>
+ <li>OneDrive for Business</li>
+</ul>
+<p><strong>New Swipe Gestures on macOS</strong></p>
+<p>We've created a new swipe mechanism on macOS that will provide better feedback for four commonly used actions:</p>
+<ul>
+ <li>1/2 swipe left = Archive</li>
+ <li>full swipe left = Reminder</li>
+ <li>1/2 swipe right = Junk</li>
+ <li>full swipe right = Delete</li>
+</ul>
+<p>The swipe actions work on a "swipe-n-hold" basis. Swipe until the desired action is displayed, hold, then let go once the swipe action "activates." This usage pattern was designed to prevent accidental swipes from performing an action.</p>
+<p>Most importantly, swipe actions can be performed on multiple messages at once!</p>
+<p>Currently, this feature is available on macOS only.</p>
+<p><strong>Quick Copy</strong></p>
+<p>This works similarly to Quick Move but copies the message to the desired folder instead of moving it. The keyboard shortcut "c" will bring up the Quick Bar, and from there you can type the name of the folder you wish to copy the message to.</p>
+<p><strong>Gmail Labeling Mechanism</strong></p>
+<p>We've created a new mechanism for Gmail labeling that mirrors the actions used for Quick Move, Quick Switch, and Quick Copy. Type the "l" key to bring up the Quick Bar, then autocomplete against the desired label name.</p>
+<p>Gmail labeling works similarly to Topic assignment in the Quick Bar, and you can now assign multiple labels at once.</p>
+<p><strong>Highlight & Strikethrough in Compose</strong></p>
+<p>The compose formatting toolbar now supports text strikethrough and highlighting.</p>
+<p><strong>New Filter Actions</strong></p>
+<p>We've added three more filter actions:</p>
+<ul>
+ <li>Add Prefix to Subject</li>
+ <li>Add Suffix to Subject</li>
+ <li>Add Sender to Address List</li>
+</ul>
+<h5>Other Improvements</h5>
+<ul>
+ <li>Improved Gravatar Support</li>
+ <li>Date Pickers in the Search Bar</li>
+ <li>Alphabetical sorting of Topics in the editor panel</li>
+ <li>vCards can now be imported to the Address Book by double-clicking on them</li>
+ <li>Improved styling for vCard display</li>
+ <li>Improved status messages in the preview pane</li>
+ <li>Added option and set default to limit Conversation View to messages in the Inbox, Sent, and Archive folders in Preferences | Options &gt; Display &gt; Conversations</li>
+ <li>Added Quick Post actions to the Quick Bar with the keyboard shortcut “q”</li>
+ <li>Multiple selected messages now display a message count in the preview area</li>
+ <li>Added OAuth2 (Yahoo) to the account settings page</li>
+ <li>Implemented preference to hide/show signatures in conversation view</li>
+ <li>Improved the options for remote image loading</li>
+ <li>Improved icon display when using different resolutions on Windows</li>
+ <li>Implemented TCP keepalive option to improve connections</li>
+ <li>Added preference to MIME encode 8-bit headers to fix Yahoo character and question mark issues</li>
+</ul>
+<h5>Changes in Behavior</h5>
+<ul>
+ <li>Removed the default preference for composition background color</li>
+ <li>Changed font sizes from points to pixels in the compose window, which may require that you change your default composition size</li>
+ <li>Increased line-height for composition and display</li>
+ <li>Changed delete behavior for Google accounts to better mirror what Gmail does on the web</li>
+</ul>
+<h5>Bug Fixes</h5>
+<ul>
+ <li>Fixed an issue that could cause URLs with line breaks in them to not open in a browser</li>
+ <li>Fixed an issue that could cause messages to not be Marked as Read after deleting when the Preview Pane is closed</li>
+ <li>Fixed an issue that could prevent child messages from being selected when the message preview pane is closed</li>
+ <li>Fixed an issue when contextual-clicking non-selected messages and performing actions, the selector didn’t return to the previously selected message</li>
+ <li>Fixed an issue when contextual-clicking non-selected messages and performing actions, the action would be performed on the previously selected message</li>
+ <li>Fixed an issue when the default send server was not being respected when clicking on an email address in the contact card</li>
+ <li>Fixed an issue when using arrow keys to select contacts in the addressing auto-complete widget</li>
+ <li>Fixed an issue that could cause sort order to get reset after a file or image search</li>
+ <li>Fixed an issue that could cause the Task Bar icon to reset during updates on Windows</li>
+ <li>Fixed an issue that could cause duplicate .ics file icons to display</li>
+ <li>Fixed an issue with the Account Wizard where ymail.com accounts were not recognized as Yahoo accounts</li>
+ <li>Fixed an issue that wouldn’t allow multiple messages to be set as Reminder at once</li>
+ <li>Fixed an issue with addressing messages from the Compose Sidebar recent contacts list</li>
+ <li>Fixed an issue where image attributes were not preserved when selecting a different image during message composition</li>
+ <li>Fixed an issue to prevent files stored in the clipboard to be added during a drag and drop action in the Compose window</li>
+ <li>Fixed a crash that could occur when parsing attachments</li>
+ <li>Fixed an issue with scam detection connectivity</li>
+ <li>Fixed an issue that caused excess CPU while Postbox was at rest and not actively indexing</li>
+ <li>Fixed an issue that could cause read receipts to not display</li>
+ <li>Fixed an issue that could prevent attachments from displaying</li>
+ <li>Fixed a regression that prevented Spotlight from indexing messages on macOS</li>
+ <li>Fixed an issue where selected attachments in compose would not deselect when clicking in the message body</li>
+ <li>Fixed an issue where messages forwarded as attachment contained the wrong display name</li>
+ <li>Fixed an issue that would prevent addressing autocomplete if Gravatar was turned off</li>
+ <li>Fixed an issue that caused avatars to duplicate in the Compose Sidebar if Gravatar was turned off</li>
+</ul>
+
+					<!-- END CONTENT BLOCK -->
+
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+
+

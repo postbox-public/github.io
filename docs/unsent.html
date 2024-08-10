@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns="//www.w3.org/1999/xhtml" lang="en-US" class="">
+<head>
+	<meta charset="utf-8"/>
+	<title>Mail Stuck in the Outbox Folder - Postbox</title>
+	<link href="/assets/styles/aos.css?v=1721838117" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://postbox-public.github.io/html/assets/fonts/font.css">
+	<link rel="stylesheet" href="https://postbox-public.github.io/html/assets/styles/app.css">
+</head>
+<body>
+	<header class="page-head page-head--sky" role="banner" id="page-head">
+		<div class="container">
+			<a href="https://postbox-public.github.io/html/" class="page-logo">
+				<img src="https://postbox-public.github.io/html/assets/images/postbox-logo-white.png" alt="Postbox">
+			</a>
+		</div>
+	</header>
+
+	<main role="main">
+
+		<section class="section ">
+			<div class="container">
+				<div class="container--narrow">
+
+					<!-- START CONTENT BLOCK -->
+					<h1 style="margin: 50px 0;">Mail Stuck in the Outbox Folder</h1>
+<p>
+  When you send a message, Postbox&nbsp;sends it in the background by placing it
+  in the Unsent/Outbox folder before sending it out. This allows Postbox to close
+  the compose window immediately. However, some servers do not work well with this
+  setting, causing messages to be stuck in the Outbox. There are a few things you
+  can do to fix this issue.
+</p>
+<p>
+  <strong>Turn Off Send in Background</strong>
+</p>
+<p>
+  By default, Postbox is set to send in the background, but if you have problems
+  with messages getting stuck in the Outbox, this setting should be turned off.
+</p>
+<p>
+  Navigate to&nbsp;<em>Preferences or Options &gt;<strong>&nbsp;</strong>Composition &gt; Advanced,&nbsp;</em>then
+  turn OFF "Send in background."
+</p>
+<p>
+  <strong>Delete Messages from the Outbox&nbsp;</strong>
+</p>
+<p>
+  If a message is already stuck in the Outbox, navigate to your
+  <em>On My Mac</em> or <em>Local Folders</em> account &gt; <em>Outbox</em> and
+  delete any messages that are not needed.
+</p>
+<p>Then restart Postbox.</p>
+<p>
+  <strong>Repair the Outbox Folder</strong>
+</p>
+<p>
+  Navigate to your <em>On My Mac</em> or <em>Local Folders</em> account &gt;
+  <em>Outbox</em>, right-click the <em>Outbox</em> folder and select "Properties"
+  from the contextual menu. Then click the "Repair Folder." button.
+</p>
+<p>Restart Postbox.</p>
+<p>
+  <strong>Compact the Outbox Folder</strong>
+</p>
+<p>Navigate to the File menu and select "Compact."</p>
+<p>Wait 3 minutes, then restart Postbox.</p>
+<p>
+  <strong>Make Sure You Have the Correct Sent Folder Mappings</strong>
+</p>
+<ol>
+  <li>
+	Navigate to
+	<em>Preferences or Options &gt;<strong>&nbsp;</strong>Accounts &gt; [your account] &gt; Copies &amp; Folders</em>
+  </li>
+  <li>
+	For the Sent folder, select <em>Other</em>.
+  </li>
+  <li>Navigate to the Sent folder in that account and select it.</li>
+  <li>Restart Postbox.</li>
+</ol>
+<p>
+  For more details, please see
+  <a href="https://support.postbox-inc.com/hc/en-us/articles/217986468-Mapping-Folders">Folder Mappings</a>.
+</p>
+<p>
+  <strong>Verify Your SMTP Settings</strong>
+</p>
+<p>
+  Verify that your SMTP settings are correct in
+  <em>Preferences or Options &gt;&nbsp;Accounts &gt; Outgoing Server.</em>
+</p>
+<p>
+  <strong>Sending a Large Message</strong>
+</p>
+<p>
+  If you are sending a large message, it's possible that the message is just taking
+  a long time to send. In that case, ignore the notification and allow the send&nbsp;action
+  to finish.
+</p>
+<p>
+  <strong>Make sure your signature does not contain images that reside behind a firewall or VPN.</strong>
+</p>
+<p>
+  If you've attached an image to your signature, like a company logo, ensure it
+  is not behind a firewall or VPN and that the link to this image can be publicly
+  accessible. Try loading the image at home when not connected to a VPN.&nbsp;
+</p>
+					
+					<!-- END CONTENT BLOCK -->
+
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+
+
